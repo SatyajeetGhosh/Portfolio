@@ -4,7 +4,7 @@ Built my portfolio website showcasing my works, projects, etc
 
 ## Demo
 
-[Click here](https://www.w3schools.com/js/default.asp) to view my portfolio or go to https://satyajeetghosh.github.io/Portfolio/
+[Click here](https://satyajeetghosh.github.io/Portfolio/) to view my portfolio or go to https://satyajeetghosh.github.io/Portfolio/
 
 ## Resources
 
