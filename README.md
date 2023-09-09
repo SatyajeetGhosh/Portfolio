@@ -1,2 +1,17 @@
 # Portfolio
-Built my portfolio website showcasing my worls, projects, etc
+
+Built my portfolio website showcasing my works, projects, etc
+
+## Demo
+
+[Click here](https://www.w3schools.com/js/default.asp) to view my portfolio or go to https://satyajeetghosh.github.io/Portfolio/
+
+## Resources
+
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/default.asp)
+- [JavaScript](https://www.w3schools.com/js/default.asp)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Unicons](https://iconscout.com/unicons)
+- [Favicon Generator](https://realfavicongenerator.net/)
