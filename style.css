@@ -17,7 +17,6 @@
 body{
     background-color: var(--background-color);
     position: relative;
-    overflow-x: hidden;
 }
 
 /* Pre-Loader */
@@ -1199,5 +1198,18 @@ footer .end-text span{
 
     footer .end-text br{
         display: block;
+    }
+}
+
+@media (max-width: 321px) {
+    .main-content .about-section .about{
+        width: 285px;
+    }
+    .main-content .about-section .about img{
+        width: 100%;
+    }
+
+    .main-content .about-section .about .about-content{
+        width: 285px;
     }
 }
