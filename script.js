@@ -4,6 +4,11 @@ window.onload = function(){
     document.getElementById('main-container').style.display="block";
 };
 
+// Animate on Scroll
+AOS.init({
+    duration: 1000
+});
+
 // Scroll to Top Button
 let calcScrollValue = () => {
     let scrollProgress = document.getElementById("progress");

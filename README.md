@@ -15,3 +15,6 @@ Built my portfolio website showcasing my works, projects, etc
 - [Font Awesome](https://fontawesome.com/)
 - [Unicons](https://iconscout.com/unicons)
 - [Favicon Generator](https://realfavicongenerator.net/)
+- [Form Submit](https://formsubmit.co/)
+- [Dummy JSON](https://dummyjson.com/)
+- [Pre Loader](https://uiball.com/loaders/)
