@@ -2,10 +2,6 @@
 
 Built my portfolio website showcasing my works, projects, etc
 
-## Demo
-
-[Click here](https://satyajeetghosh.github.io/Portfolio/) to view my portfolio or go to https://satyajeetghosh.github.io/Portfolio/
-
 ## Resources
 
 - [HTML](https://www.w3schools.com/html/)
