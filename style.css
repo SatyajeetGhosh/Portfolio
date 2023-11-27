@@ -198,7 +198,6 @@ header nav .nav-links .nav-menu li a:hover::after{
 /* Home Page Style Starts */
 
 .main-content .home-section{
-    /* height: 100vh; */
     padding: 7.5em 2em 0 2em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -237,7 +236,6 @@ header nav .nav-links .nav-menu li a:hover::after{
 
 .main-content .home-section .home-left .buttons .my-resume:hover, .main-content .home-section .home-left .buttons .btn i:hover{
     background-color: var(--hover-color);
-    transform: scale(1.04);
 }
 
 .main-content .home-section .home-left .buttons .btn{
@@ -342,7 +340,6 @@ header nav .nav-links .nav-menu li a:hover::after{
 
 .main-content .about-section .about .about-content a:hover{
     background-color: var(--hover-color);
-    transform: scale(1.04);
 }
 
 .main-content .about-section .qualification{
@@ -408,7 +405,6 @@ header nav .nav-links .nav-menu li a:hover::after{
 
 .main-content .about-section .qualification .edu-info-container .edu-info .college, .main-content .about-section .qualification .experience-info-container .experience-info .company{
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: 1.5fr 2fr;
 }
 
