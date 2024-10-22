@@ -1,348 +1,507 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Poppins:wght@300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Poppins:wght@300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Unicons CDN -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>Satyajeet's Portfolio</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <div id="pre-loader">
-        <div class="momentum"></div>
+      <div class="momentum"></div>
     </div>
 
     <div id="scroll-to-top-btn">
-        <i class="uil uil-angle-up" id="progress"></i>
+      <i class="uil uil-angle-up" id="progress"></i>
     </div>
 
     <section id="main-container">
-        <header>
-            <nav>
-                <div class="logo">
-                    <a href="#home">Satyajeet.</a>
-                </div>
-                <div class="bars">
-                    <i class="fa-solid fa-bars-staggered"></i>
-                </div>
-                <div class="nav-links">
-                    <ul class="nav-menu">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+      <header>
+        <nav>
+          <div class="logo">
+            <a href="#home">Satyajeet.</a>
+          </div>
+          <div class="bars">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </div>
+          <div class="nav-links">
+            <ul class="nav-menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
 
-        <section class="main-content">
-
-            <section class="home-section" id="home">
-                <div class="home-left">
-                    <div class="intro-text">
-                        <p>Hi there!</p>
-                        <p>I'm <span>Satyajeet Ghosh</span></p>
-                        <p>an aspiring <span>Software Developer</span></p>
-                    </div>
-                    <div class="buttons">
-                        <a href="https://drive.google.com/file/d/1zk911fZJ6H0jkrXBlcaiCHw2v4aJ1RgV/view?usp=sharing" class="my-resume" target="_blank">Resume</a>
-                        <a href="https://github.com/SatyajeetGhosh" class="btn" target="_blank">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/satyajeetghosh10/" class="btn" target="_blank">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="home-right"></div>
-            </section>
-
-            <section class="about-section" id="about">
-                <h2>About Me</h2>
-                <div class="about">
-                    <img src="assets/about.png" alt="web developer image">
-                    <div class="about-content">
-                        <p>I'm a passionate web developer with a keen eye for detail and a love for crafting intuitive and visually engaging user interfaces that delight users. A self-starter and a team player committed to deliver high-quality work that meets or exceeds client expectations. Eager to work with experienced industry professionals and expand my skillset.</p>
-                        <a href="#contact">
-                            <span>Say Hello</span>
-                            <i class="uil uil-message"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="qualification">
-                    <div class="heading-container">
-                        <p class="edu-heading" id="edu-btn">
-                            <i class="fa-solid fa-graduation-cap"></i>
-                            <span>Education</span>
-                        </p>
-                        <p class="experience-heading" id="exp-btn">
-                            <i class="fa-solid fa-briefcase"></i>
-                            <span>Experience</span>
-                        </p>
-                    </div>
-
-                    <div class="edu-info-container" id="education">
-                        <div class="edu-info">
-                            <div class="college">
-                                <h3>2020-2024</h3>
-                                <div class="college-info">
-                                    <h3>Christ (Deemed to be University)</h3>
-                                    <p>B.Tech in Computer Science and Engineering (AIML)</p>
-                                    <p>Bangalore, Karnataka</p>
-                                </div>
-                            </div>
-                            <div class="college">
-                                <h3>2017-2019</h3>
-                                <div class="college-info">
-                                    <h3>Mother's Public School</h3>
-                                    <p>Pre-University</p>
-                                    <p>Bhubaneshwar, Odisha</p>
-                                </div>
-                            </div>
-                            <div class="college">
-                                <h3>2005-2017</h3>
-                                <div class="college-info">
-                                    <h3>Montfort School</h3>
-                                    <p>Matriculation</p>
-                                    <p>Dhenkanal, Odisha</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="experience-info-container" id="experience">
-                        <div class="experience-info">
-                            <div class="company">
-                                <h3>May - Jul, 2023</h3>
-                                <div class="company-info">
-                                    <h3>Celebal Technologies</h3>
-                                    <p>Summer Intern</p>
-                                    <div class="internship-documents">
-                                        <a href="https://drive.google.com/file/d/1sq2uECp9aGb5m9BAnkknXdBFUjci20Tm/view?usp=sharing" target="_blank">Offer Letter</a>
-                                        <a href="https://drive.google.com/file/d/1dKbOqJlWcDeEZ9kKdKVGQ63tlFQ20EXb/view?usp=sharing" target="_blank">Completion Letter</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="company">
-                                <h3>Jan - May, 2023</h3>
-                                <div class="company-info">
-                                    <h3>Industry Institute Interaction Cell, Christ University</h3>
-                                    <p>Frontend Developer</p>
-                                    <div class="internship-documents">
-                                        <a href="https://drive.google.com/file/d/1CFm6ulf2BjCpyXBEuHj2sm_M_bf0T23n/view?usp=sharing" target="_blank">Offer Letter</a>
-                                        <a href="https://drive.google.com/file/d/1fZbhvGQr1vmqBB2XBJb19z9O-0XS5ukU/view?usp=sharing" target="_blank">Completion Letter</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="company">
-                                <h3>Jan - Mar, 2023</h3>
-                                <div class="company-info">
-                                    <h3>KGE Technologies Pvt Ltd</h3>
-                                    <p>Web Development Intern</p>
-                                    <div class="internship-documents">
-                                        <a href="https://drive.google.com/file/d/1JbkOD8ekCXvgCSC5DcQxroXL7UB7-lH-/view?usp=sharing" target="_blank">Offer Letter</a>
-                                        <a href="https://drive.google.com/file/d/1082FQno8rwiTuj9l1LKGvqVOqDE3_mZU/view?usp=sharing" target="_blank">Completion Letter</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="company">
-                                <h3>Jul - Jul, 2022</h3>
-                                <div class="company-info">
-                                    <h3>The Sparks Foundation</h3>
-                                    <p>Web Development & Designing Intern</p>
-                                    <div class="internship-documents">
-                                        <a href="https://drive.google.com/file/d/1nkP8Tvu4UNEr-I4lZmcQEgg6voDAEk60/view?usp=sharing" target="_blank">Offer Letter</a>
-                                        <a href="https://drive.google.com/file/d/1e1BPCUkFgHM7hTE69tIy0UNHbyFUpu8j/view?usp=sharing" target="_blank">Completion Letter</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
-
-            <section class="project-section" id="projects">
-                <h2>Projects</h2>
-                <div class="projects-container">
-                    <div class="project">
-                        <img src="assets/laptop.png" alt="laptop" class="laptop-image">
-                        <img src="assets/modern bank.png" alt="project demo image" class="project-image">
-                        <h4>Bank Landing Page</h4>
-                        <div class="code-btn">
-                            <a href="https://github.com/SatyajeetGhosh/Modern-Bank-App" target="_blank">
-                                <span>Github</span>
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                            <a href="https://hoobank-react-js.netlify.app/" target="_blank">
-                                <span>Demo</span>
-                                <i class="uil uil-arrow-up-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <img src="assets/laptop.png" alt="laptop" class="laptop-image">
-                        <img src="assets/mahima.png" alt="project demo image" class="project-image">
-                        <h4>Charitable Trust Website</h4>
-                        <div class="code-btn">
-                            <a href="https://github.com/SatyajeetGhosh/Mahima-Charitable-Trust" target="_blank">
-                                <span>Github</span>
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                            <a href="https://satyajeetghosh.github.io/Mahima-Charitable-Trust/" target="_blank">
-                                <span>Demo</span>
-                                <i class="uil uil-arrow-up-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <img src="assets/laptop.png" alt="laptop" class="laptop-image">
-                        <img src="assets/edura.png" alt="project demo image" class="project-image">
-                        <h4>E Learning Platform</h4>
-                        <div class="code-btn">
-                            <a href="https://github.com/SatyajeetGhosh/E-Learning-Platform" target="_blank">
-                                <span>Github</span>
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                            <a href="https://satyajeetghosh.github.io/E-Learning-Platform/" target="_blank">
-                                <span>Demo</span>
-                                <i class="uil uil-arrow-up-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <img src="assets/laptop.png" alt="laptop" class="laptop-image">
-                        <img src="assets/passwordGenerator.png" alt="project demo image" class="project-image">
-                        <h4>Password Generator</h4>
-                        <div class="code-btn">
-                            <a href="https://github.com/SatyajeetGhosh/Password-Generator" target="_blank">
-                                <span>Github</span>
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                            <a href="https://satyajeetghosh.github.io/Password-Generator/" target="_blank">
-                                <span>Demo</span>
-                                <i class="uil uil-arrow-up-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <img src="assets/laptop.png" alt="laptop" class="laptop-image">
-                        <img src="assets/memory.png" alt="project demo image" class="project-image">
-                        <h4>Memory Game</h4>
-                        <div class="code-btn">
-                            <a href="https://github.com/SatyajeetGhosh/Memory-Game" target="_blank">
-                                <span>Github</span>
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                            <a href="https://satyajeetghosh.github.io/Memory-Game/" target="_blank">
-                                <span>Demo</span>
-                                <i class="uil uil-arrow-up-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <img src="assets/laptop.png" alt="laptop" class="laptop-image">
-                        <img src="assets/weather.png" alt="project demo image" class="project-image">
-                        <h4>Weather App</h4>
-                        <div class="code-btn">
-                            <a href="https://github.com/SatyajeetGhosh/Weather-App" target="_blank">
-                                <span>Github</span>
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                            <a href="https://satyajeetghosh.github.io/Weather-App/" target="_blank">
-                                <span>Demo</span>
-                                <i class="uil uil-arrow-up-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="contact-section" id="contact">
-                <h2>Contact</h2>
-                <div class="contact-form-container">
-                    <form action="https://formsubmit.co/55bd274ee51195d57d8a2853b5ef3d62" method="post" >
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="text" id="name" name="name" placeholder="Name" required>
-                        <input type="email" id="email" name="email" placeholder="Email" required>
-                        <textarea id="message" name="message" cols="30" rows="4" placeholder="Message" required></textarea>
-                        <input type="submit" class="btn"/>
-                        <input type="hidden" name="_next" value="https://satyajeetghosh.github.io/Portfolio/thanks.html">
-                    </form>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.77490709076!2d77.30125543197171!3d12.95445954233783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sus!4v1693983225277!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </section>
-
+      <section class="main-content">
+        <section class="home-section" id="home">
+          <div class="home-left">
+            <div class="intro-text">
+              <p>Hi there!</p>
+              <p>I'm <span>Satyajeet Ghosh</span></p>
+              <p><span>Software Developer</span></p>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://drive.google.com/file/d/1zk911fZJ6H0jkrXBlcaiCHw2v4aJ1RgV/view?usp=sharing"
+                class="my-resume"
+                target="_blank"
+                >Resume</a
+              >
+              <a
+                href="https://github.com/SatyajeetGhosh"
+                class="btn"
+                target="_blank"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/satyajeetghosh10/"
+                class="btn"
+                target="_blank"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home-right"></div>
         </section>
 
-        <footer>
-            <div class="footer-container">
-                <div class="footer-heading">
-                    <a href="#home">Satyajeet.</a>
-                    <hr>
-                    <div class="social-links">
-                        <a href="https://github.com/SatyajeetGhosh" class="btn" target="_blank">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/satyajeetghosh10/" class="btn" target="_blank">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-                    </div>
-                    <p class="copyright">Portfolio © 2023 | All rights reserved</p>
-                </div>
-
-                <div class="api-container">
-                    <p class="thanks">Thank you for visiting my portfolio 😊</p>
-                    <p>Here's a quote for you</p>
-                    <blockquote id="quote"></blockquote>
-                    <span id="author">Lorem Ipsum</span>
-                    <button class="quote-btn" onclick="getQuote(api)">New Quote</button>
-                </div>
-
-                <div class="footer-links">
-                    <h3>Important Links</h3>
-                    <hr>
-                    <ul class="footer-menu">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
+        <section class="about-section" id="about">
+          <h2>About Me</h2>
+          <div class="about">
+            <img src="assets/about.png" alt="web developer image" />
+            <div class="about-content">
+              <p>
+                I'm a passionate web developer with a keen eye for detail and a
+                love for crafting intuitive and visually engaging user
+                interfaces that delight users. A self-starter and a team player
+                committed to deliver high-quality work that meets or exceeds
+                client expectations. Eager to work with experienced industry
+                professionals and expand my skillset.
+              </p>
+              <a href="#contact">
+                <span>Say Hello</span>
+                <i class="uil uil-message"></i>
+              </a>
             </div>
-            <p class="end-text">Crafted with ❤️ by <br/><span>Satyajeet Ghosh</span></p>
-        </footer>
+          </div>
 
+          <div class="qualification">
+            <div class="heading-container">
+              <p class="edu-heading" id="edu-btn">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Education</span>
+              </p>
+              <p class="experience-heading" id="exp-btn">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Experience</span>
+              </p>
+            </div>
+
+            <div class="edu-info-container" id="education">
+              <div class="edu-info">
+                <div class="college">
+                  <h3>2020-2024</h3>
+                  <div class="college-info">
+                    <h3>Christ (Deemed to be University)</h3>
+                    <p>B.Tech in Computer Science and Engineering (AIML)</p>
+                    <p>Bangalore, Karnataka</p>
+                  </div>
+                </div>
+                <div class="college">
+                  <h3>2017-2019</h3>
+                  <div class="college-info">
+                    <h3>Mother's Public School</h3>
+                    <p>Pre-University</p>
+                    <p>Bhubaneshwar, Odisha</p>
+                  </div>
+                </div>
+                <div class="college">
+                  <h3>2005-2017</h3>
+                  <div class="college-info">
+                    <h3>Montfort School</h3>
+                    <p>Matriculation</p>
+                    <p>Dhenkanal, Odisha</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="experience-info-container" id="experience">
+              <div class="experience-info">
+                <div class="company">
+                  <h3>Aug, 2024 - Present</h3>
+                  <div class="company-info">
+                    <h3>Payhuddle Solutions Pvt Ltd.</h3>
+                    <p>Junior Software Developer</p>
+                  </div>
+                </div>
+                <div class="company">
+                  <h3>Jan - Jul, 2024</h3>
+                  <div class="company-info">
+                    <h3>Payhuddle Solutions Pvt Ltd.</h3>
+                    <p>Development Intern</p>
+                  </div>
+                </div>
+                <div class="company">
+                  <h3>May - Jul, 2023</h3>
+                  <div class="company-info">
+                    <h3>Celebal Technologies</h3>
+                    <p>Summer Intern</p>
+                    <div class="internship-documents">
+                      <a
+                        href="https://drive.google.com/file/d/1sq2uECp9aGb5m9BAnkknXdBFUjci20Tm/view?usp=sharing"
+                        target="_blank"
+                        >Offer Letter</a
+                      >
+                      <a
+                        href="https://drive.google.com/file/d/1dKbOqJlWcDeEZ9kKdKVGQ63tlFQ20EXb/view?usp=sharing"
+                        target="_blank"
+                        >Completion Letter</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="company">
+                  <h3>Jan - Mar, 2023</h3>
+                  <div class="company-info">
+                    <h3>KGE Technologies Pvt Ltd</h3>
+                    <p>Web Development Intern</p>
+                    <div class="internship-documents">
+                      <a
+                        href="https://drive.google.com/file/d/1JbkOD8ekCXvgCSC5DcQxroXL7UB7-lH-/view?usp=sharing"
+                        target="_blank"
+                        >Offer Letter</a
+                      >
+                      <a
+                        href="https://drive.google.com/file/d/1082FQno8rwiTuj9l1LKGvqVOqDE3_mZU/view?usp=sharing"
+                        target="_blank"
+                        >Completion Letter</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-section" id="projects">
+          <h2>Projects</h2>
+          <div class="projects-container">
+            <div class="project">
+              <img src="assets/laptop.png" alt="laptop" class="laptop-image" />
+              <img
+                src="assets/modern bank.png"
+                alt="project demo image"
+                class="project-image"
+              />
+              <h4>Bank Landing Page</h4>
+              <div class="code-btn">
+                <a
+                  href="https://github.com/SatyajeetGhosh/Modern-Bank-App"
+                  target="_blank"
+                >
+                  <span>Github</span>
+                  <i class="uil uil-github-alt"></i>
+                </a>
+                <a href="https://hoobank-react-js.netlify.app/" target="_blank">
+                  <span>Demo</span>
+                  <i class="uil uil-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="assets/laptop.png" alt="laptop" class="laptop-image" />
+              <img
+                src="assets/mahima.png"
+                alt="project demo image"
+                class="project-image"
+              />
+              <h4>Charitable Trust Website</h4>
+              <div class="code-btn">
+                <a
+                  href="https://github.com/SatyajeetGhosh/Mahima-Charitable-Trust"
+                  target="_blank"
+                >
+                  <span>Github</span>
+                  <i class="uil uil-github-alt"></i>
+                </a>
+                <a
+                  href="https://satyajeetghosh.github.io/Mahima-Charitable-Trust/"
+                  target="_blank"
+                >
+                  <span>Demo</span>
+                  <i class="uil uil-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="assets/laptop.png" alt="laptop" class="laptop-image" />
+              <img
+                src="assets/edura.png"
+                alt="project demo image"
+                class="project-image"
+              />
+              <h4>E Learning Platform</h4>
+              <div class="code-btn">
+                <a
+                  href="https://github.com/SatyajeetGhosh/E-Learning-Platform"
+                  target="_blank"
+                >
+                  <span>Github</span>
+                  <i class="uil uil-github-alt"></i>
+                </a>
+                <a
+                  href="https://satyajeetghosh.github.io/E-Learning-Platform/"
+                  target="_blank"
+                >
+                  <span>Demo</span>
+                  <i class="uil uil-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="assets/laptop.png" alt="laptop" class="laptop-image" />
+              <img
+                src="assets/passwordGenerator.png"
+                alt="project demo image"
+                class="project-image"
+              />
+              <h4>Password Generator</h4>
+              <div class="code-btn">
+                <a
+                  href="https://github.com/SatyajeetGhosh/Password-Generator"
+                  target="_blank"
+                >
+                  <span>Github</span>
+                  <i class="uil uil-github-alt"></i>
+                </a>
+                <a
+                  href="https://satyajeetghosh.github.io/Password-Generator/"
+                  target="_blank"
+                >
+                  <span>Demo</span>
+                  <i class="uil uil-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="assets/laptop.png" alt="laptop" class="laptop-image" />
+              <img
+                src="assets/memory.png"
+                alt="project demo image"
+                class="project-image"
+              />
+              <h4>Memory Game</h4>
+              <div class="code-btn">
+                <a
+                  href="https://github.com/SatyajeetGhosh/Memory-Game"
+                  target="_blank"
+                >
+                  <span>Github</span>
+                  <i class="uil uil-github-alt"></i>
+                </a>
+                <a
+                  href="https://satyajeetghosh.github.io/Memory-Game/"
+                  target="_blank"
+                >
+                  <span>Demo</span>
+                  <i class="uil uil-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="assets/laptop.png" alt="laptop" class="laptop-image" />
+              <img
+                src="assets/weather.png"
+                alt="project demo image"
+                class="project-image"
+              />
+              <h4>Weather App</h4>
+              <div class="code-btn">
+                <a
+                  href="https://github.com/SatyajeetGhosh/Weather-App"
+                  target="_blank"
+                >
+                  <span>Github</span>
+                  <i class="uil uil-github-alt"></i>
+                </a>
+                <a
+                  href="https://satyajeetghosh.github.io/Weather-App/"
+                  target="_blank"
+                >
+                  <span>Demo</span>
+                  <i class="uil uil-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+          <h2>Contact</h2>
+          <div class="contact-form-container">
+            <form
+              action="https://formsubmit.co/55bd274ee51195d57d8a2853b5ef3d62"
+              method="post"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                id="message"
+                name="message"
+                cols="30"
+                rows="4"
+                placeholder="Message"
+                required
+              ></textarea>
+              <input type="submit" class="btn" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://satyajeetghosh.github.io/Portfolio/thanks.html"
+              />
+            </form>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.77490709076!2d77.30125543197171!3d12.95445954233783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sus!4v1693983225277!5m2!1sen!2sus"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </section>
+      </section>
+
+      <footer>
+        <div class="footer-container">
+          <div class="footer-heading">
+            <a href="#home">Satyajeet.</a>
+            <hr />
+            <div class="social-links">
+              <a
+                href="https://github.com/SatyajeetGhosh"
+                class="btn"
+                target="_blank"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/satyajeetghosh10/"
+                class="btn"
+                target="_blank"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+            </div>
+            <p class="copyright">Portfolio © 2023 | All rights reserved</p>
+          </div>
+
+          <div class="api-container">
+            <p class="thanks">Thank you for visiting my portfolio 😊</p>
+            <p>Here's a quote for you</p>
+            <blockquote id="quote"></blockquote>
+            <span id="author">Lorem Ipsum</span>
+            <button class="quote-btn" onclick="getQuote(api)">New Quote</button>
+          </div>
+
+          <div class="footer-links">
+            <h3>Important Links</h3>
+            <hr />
+            <ul class="footer-menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="end-text">
+          Crafted with ❤️ by <br /><span>Satyajeet Ghosh</span>
+        </p>
+      </footer>
     </section>
 
     <!-- jQuery CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <!-- Custom Js -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
